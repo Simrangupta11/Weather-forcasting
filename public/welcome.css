@@ -1,0 +1,65 @@
+
+
+h1 {
+    text-align: center;
+    color:rgb(23, 173, 184);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 500px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-image:url('kk.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 210%;
+}
+.container {
+   
+    justify-content: center;
+        width: 65%;
+       
+
+          
+    }
+    form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        
+    }
+    .submit-btn {
+        position: relative;
+        text-align: center;
+        width: 350px;
+        padding: 10px;
+        font-size: 20px;
+        color:rgb(14, 99, 105);
+        font-family: poppins;
+        font-weight: 400;
+        border: 3px solid rgb(14, 99, 105);
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        cursor: pointer;
+        border-radius: 60px;
+       
+
+    }
+    .submit-btn:hover
+    {
+        box-shadow: 0 3px 5px 0 rgb(14, 99, 105) inset,0 3px 5px 0 rgb(14, 99, 105),
+        0 3px 5px 0 rgb(14, 99, 105) inset,0 3px 5px 0 rgb(14, 99, 105);
+    }
+    input {
+        padding: 2%;
+        box-decoration-break: slice;
+       align-content: center;
+       margin-left: 550px;
+       border: 3px solid rgb(14, 99, 105);
+       
+    }
+    ::-webkit-input-placeholder {
+        color:black;
+        }
